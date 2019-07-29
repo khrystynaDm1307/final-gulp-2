@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/khrystynaDm1307/final-gulp-2/issues"
   },
-  "homepage": "https://github.com/khrystynaDm1307/final-gulp-2#readme"
+  "homepage": "https://github.com/khrystynaDm1307/final-gulp-2#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
 }
