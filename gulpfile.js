@@ -8,7 +8,7 @@ const browsersync = require('browser-sync').create();
 
 const paths = {
     html: {
-        src: 'app/index.html',
+        src: 'app/*.html',
         dest: 'build/'
     },
     styles: {
