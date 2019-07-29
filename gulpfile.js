@@ -4,7 +4,6 @@ const cssnano = require('gulp-cssnano');
 const autoprefixer = require('gulp-autoprefixer');
 const rename = require('gulp-rename');
 const image = require('gulp-image');
-
 const browsersync = require('browser-sync').create();
 
 const paths = {
