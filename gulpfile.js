@@ -8,7 +8,7 @@ const browsersync = require('browser-sync').create();
 
 const paths = {
     html: {
-        src: 'app/final.html',
+        src: 'app/index.html',
         dest: 'build/'
     },
     styles: {
@@ -29,7 +29,7 @@ const paths = {
 function browserSync(done){
     browsersync.init({
         server: {
-            baseDir: './build',
+            baseDir: './build'
         },
         port: 3000
     })
