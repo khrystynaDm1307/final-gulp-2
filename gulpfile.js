@@ -1,5 +1,4 @@
 const gulp=require('gulp')
-const sass = require('gulp-sass');
 const cssnano = require('gulp-cssnano');
 const autoprefixer = require('gulp-autoprefixer');
 const rename = require('gulp-rename');
@@ -49,7 +48,6 @@ function html() {
 
 function styles() {
     return gulp.src(paths.styles.src)
-        .pipe(sass().on('error', sass.logError))
         .pipe(cssnano())
         .pipe(autoprefixer())
         .pipe(rename({ suffix: '.min' }))
